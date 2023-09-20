@@ -14,12 +14,7 @@ function generatePalindromeArrayWithSum(targetSum) {
     for (let index = 0; index < targetSum; index++) {
         let palArray = [1]
         for (let j = 0; j <=index ; j++) {
-            for (let k = 1; k <= 10; k++) {
-                palArray[j] = k
-                 
-                
-            }
-           
+            palArray[j] = 
             
         } 
         console.log(palArray);

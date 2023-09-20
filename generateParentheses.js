@@ -5,7 +5,7 @@
 var generateParenthesis = function(n) {
     let x = "()";
     for(let i = 0; i < n; i++){
-        x ++;
+        x = x + x;
     }
     return x;
 
