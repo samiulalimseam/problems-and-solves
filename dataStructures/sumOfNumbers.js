@@ -9,7 +9,8 @@ function sumOfNumbersLoop (nums){
     }
     return sum;
 } 
-const start = (performance.now() / 1000)
-console.log(sumOfNumbers(9999999))
-const end = (performance.now() / 1000)
+const start = (Date.now() / 1000)
+const sum = (sumOfNumbers(9999999999999))
+console.log('sum: ',sum.toLocaleString())
+const end = (Date.now() / 1000)
 console.log((end - start).toFixed(5) )
